@@ -5,15 +5,13 @@
 
 :root {
   /* Overwatch theme */
-  --ow-blue: #31a3bf;
-  --ow-blue-dark: #2488a1;
-  --ow-enemy: #b91e32;
-  --ow-bg: #0b1c40;
-  --ow-bg-grad-end: #050a1f;
-  --ow-panel: #343c4a;
-  --ow-border: #4a5568;
-  --ow-text: #ffffff;
-  --ow-muted: #a0aec0;
+  --ow-blue: #4d9fff;
+  --ow-blue-dark: #2e7fd9;
+  --ow-bg: #d0d0d0;
+  --ow-panel: #e8e8e8;
+  --ow-border: #b0b0b0;
+  --ow-text: #1a1a1a;
+  --ow-muted: #666666;
 
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -92,9 +90,7 @@
   /* Overwatch theme colors */
   --color-ow-blue: var(--ow-blue);
   --color-ow-blue-dark: var(--ow-blue-dark);
-  --color-ow-enemy: var(--ow-enemy);
   --color-ow-bg: var(--ow-bg);
-  --color-ow-bg-grad-end: var(--ow-bg-grad-end);
   --color-ow-panel: var(--ow-panel);
   --color-ow-border: var(--ow-border);
   --color-ow-text: var(--ow-text);
