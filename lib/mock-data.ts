@@ -149,3 +149,28 @@ export const TEAM_SLOTS: { role: Role; label: string }[] = [
   { role: "서포터", label: "서포터 1" },
   { role: "서포터", label: "서포터 2" },
 ]
+
+export interface MatchRecord {
+  match_id: number
+  player_id: string
+  hero: string
+  role: string
+  map: string
+  mode: string
+  tier: string
+  region: string
+  result: "Win" | "Lose"
+  kills: number
+  deaths: number
+  assists: number
+  kda: number
+  damage: number
+  healing: number
+  mitigation: number
+  match_time_min: number
+  timestamp: string
+}
+
+import matchDataJson from "../public/overwatch2_ranked_mock_data.json"
+
+export const MATCH_RECORDS: MatchRecord[] = matchDataJson as MatchRecord[]
