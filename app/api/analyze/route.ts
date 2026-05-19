@@ -44,7 +44,7 @@ ${teamStr("상대팀", enemyTeam)}
 
   try {
     const result = await generateText({
-      model: google("gemini-2.0-flash"),
+      model: google("gemini-3.0-flash-live"),
       messages: [{ role: "user", content: prompt }],
     })
 
